@@ -41,7 +41,7 @@ function Navbar() {
           <Link href="/" onClick={toggleMenu} className="text-gray-800 dark:text-white text-8xl hover:underline">Home</Link>
           <Link href="/about" onClick={toggleMenu} className="text-gray-800 dark:text-white text-8xl hover:underline">About</Link>
           <Link href="/works" onClick={toggleMenu} className="text-gray-800 dark:text-white text-8xl hover:underline">Works</Link>
-          <Link href="#contact" onClick={toggleMenu} className="text-gray-800 dark:text-white text-8xl hover:underline">Contact</Link>
+          <Link href="/contact" onClick={toggleMenu} className="text-gray-800 dark:text-white text-8xl hover:underline">Contact</Link>
         </div>
       </div>
 

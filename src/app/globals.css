@@ -26,3 +26,19 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* global.css */
+
+/* Hide the scrollbar but allow scrolling */
+.custom-scroll::-webkit-scrollbar {
+  display: none; /* Hide scrollbar */
+}
+
+.custom-scroll {
+  -ms-overflow-style: none;  /* For Internet Explorer and Edge */
+  scrollbar-width: none;  /* For Firefox */
+}
+
+.custom-scroll {
+  overflow-y: scroll;  /* Enable scrolling */
+}
