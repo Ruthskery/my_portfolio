@@ -6,7 +6,7 @@ import Link from 'next/link'
 function Home() {
   
   return (
-    <div className="flex items-center justify-center min-h-screen px-8">
+    <div className="flex items-center justify-center h-screen px-8">
       <div className="flex flex-col items-center justify-center text-center space-y-6">
         {/* Main text: Cyril Imperial & Developer */}
         <h1 className="text-5xl md:text-9xl font-black text-black dark:text-white">

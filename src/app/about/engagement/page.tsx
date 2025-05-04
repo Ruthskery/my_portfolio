@@ -1,21 +1,19 @@
-import React from 'react'
-import Link from 'next/link'
+import React from 'react';
+import Navbar from '../navbar';
 
 function Engagement() {
   return (
-    <div className="flex items-center justify-center min-h-screen px-8">
-      <div className="flex flex-row items-center justify-center text-center space-x-6">
-        <h1 className="text-5xl md:text-9xl font-black text-black dark:text-white">
-          Engagement
-        </h1>
-        <h1 className="text-5xl md:text-9xl font-black text-black dark:text-white">
-          <Link href="/about">
-            Back
-          </Link>
-        </h1>
+    <div className="min-h-screen flex flex-col md:flex-row items-center justify-center">
+
+      <Navbar/>
+
+      {/* Right Grid */}
+      <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 absolute right-70">
+       <h1>Right Content</h1>
       </div>
-  </div>
-  )
+
+    </div>
+  );
 }
 
-export default Engagement
+export default Engagement;

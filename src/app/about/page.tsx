@@ -4,7 +4,6 @@ import cyril from '../../../public/img/cyril.jpg';
 import Link from 'next/link';
 import { MapPin, Mail, Phone } from 'lucide-react'; // Import the required icons
 
-
 function About() {
 
   return (
