@@ -62,11 +62,11 @@ function Hero() {
              {/* Centered Links Section */}
               <div className="flex items-center justify-center w-full space-x-20 mt-10">
                 <Link href="" className={`hover:underline ${darkMode ? 'text-white' : 'text-black'} text-4xl md:text-5xl font-bold`}>
-                 - Works -
+                 Works
                 </Link>
 
                 <Link href="" className={`hover:underline ${darkMode ? 'text-white' : 'text-black'} text-4xl md:text-5xl font-bold`}>
-                 - Profile -
+                 Profile
                 </Link>
               </div>
             </div>

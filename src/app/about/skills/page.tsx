@@ -27,29 +27,13 @@ const techStack = [
 function Skills() {
   return (
     <div className="min-h-screen flex flex-col md:flex-row items-center justify-center">
-
-      {/* Left Content */}
-      {/* <div className="flex flex-col items-center md:items-start space-y-10 text-center md:text-left mr-200">
-        <h1 className="text-7xl font-black text-black dark:text-white">Skills</h1>
-          <Link href="/about/experience" className="hover:underline text-4xl font-regular text-black dark:text-white">
-            Experience
-          </Link>
-          <Link href="/about/education" className="hover:underline text-4xl font-regular text-black dark:text-white">
-          Education
-          </Link>
-          <Link href="/about/engagement" className="hover:underline text-4xl font-regular text-black dark:text-white">
-          Engagement
-          </Link>
-      </div> */}
-
       <Navbar />
-
       {/* Right Grid */}
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 absolute right-70">
         {techStack.map((tech, index) => (
           <div
             key={index}
-            className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 shadow-lg rounded-4xl p-4 hover:scale-200 transition-transform"
+            className="flex flex-col items-center justify-center bg-white dark:bg-gray-800 shadow-lg rounded-4xl p-4 hover:scale-200 transition-transform cursor-pointer"
           >
             <div className="text-4xl mb-2">{tech.icon}</div>
             <p className="text-center text-sm font-medium text-gray-800 dark:text-gray-200">{tech.name}</p>

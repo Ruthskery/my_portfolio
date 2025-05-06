@@ -11,7 +11,6 @@ function Engagement() {
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 absolute right-70">
        <h1>Right Content</h1>
       </div>
-
     </div>
   );
 }

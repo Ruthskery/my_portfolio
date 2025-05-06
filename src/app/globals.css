@@ -42,3 +42,16 @@ body {
 .custom-scroll {
   overflow-y: scroll;  /* Enable scrolling */
 }
+
+@keyframes lineDraw {
+  from {
+    width: 0;
+  }
+  to {
+    width: 500px; /* Adjust to match the desired width of your border */
+  }
+}
+
+.animate-lineDraw {
+  animation: lineDraw 2s ease-out forwards;
+}
