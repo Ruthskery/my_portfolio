@@ -41,7 +41,7 @@ function Home() {
               href="/works"
               className="text-2xl sm:text-3xl md:text-4xl font-bold text-black dark:text-white"
             >
-              Works
+              WORKS
             </Link>
           </motion.div>
 
@@ -56,7 +56,7 @@ function Home() {
               href="/about"
               className="text-2xl sm:text-3xl md:text-4xl font-bold text-black dark:text-white"
             >
-              Profile
+              PROFILE
             </Link>
           </motion.div>
         </div>

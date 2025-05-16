@@ -1,24 +1,24 @@
 import React from 'react';
 import Navbar from '../navbar';
 import Image from 'next/image';
-import agnesLogo from '../../../../public/img/SAA.png'
-import cspcLogo from '../../../../public/img/CSPC.png'
+import agnesLogo from '../../../../public/img/SAA.png';
+import cspcLogo from '../../../../public/img/CSPC.png';
 
 function Education() {
   return (
-    <div className="min-h-screen flex">
+    <div className="min-h-screen flex flex-col">
       <Navbar />
 
-      {/* Right Side - Education Cards */}
-      <div className="flex flex-col gap-10 absolute left-250 top-[25%]">
+      {/* Education Cards */}
+      <div className="flex flex-col items-center justify-center px-4 py-10 md:pt-50 md:pl-180 gap-6">
         
         {/* Card 1: Senior High School */}
-        <div className="bg-black dark:bg-white shadow-lg rounded-xl p-6 max-w flex items-center space-x-4">
+        <div className="bg-black dark:bg-white shadow-lg rounded-xl p-6 w-full max-w-3xl flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
           <Image
             src={agnesLogo}
             alt="St. Agnes Academy Logo"
-            width={150}
-            height={150}
+            width={120}
+            height={120}
             className="rounded-full bg-white"
           />
           <div>
@@ -30,12 +30,12 @@ function Education() {
         </div>
 
         {/* Card 2: College Degree */}
-        <div className="bg-black dark:bg-white shadow-lg rounded-xl p-6 max-w flex items-center space-x-4">
+        <div className="bg-black dark:bg-white shadow-lg rounded-xl p-6 w-full max-w-3xl flex flex-col md:flex-row items-center md:items-start space-y-4 md:space-y-0 md:space-x-6">
           <Image
             src={cspcLogo}
             alt="CSPC Logo"
-            width={150}
-            height={150}
+            width={120}
+            height={120}
             className="rounded-full bg-white"
           />
           <div>
@@ -45,9 +45,9 @@ function Education() {
             <p className="text-sm text-white dark:text-black">Camarines Sur Polytechnic Colleges - CSPC</p>
           </div>
         </div>
+
       </div>
     </div>
-  
   );
 }
 
